@@ -1,0 +1,12 @@
+{
+  "name": "myChat",
+  "version": "0.0.0",
+  "description": "A simple chat",
+  "main": "app.js",
+  "author": "Alex Cebotari",
+  "private": true,
+  "dependencies": {
+    "express": "^3.4.8",
+    "socket.io": "^1.3.6"
+  }
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NodeJS Socket Chat</title>
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="chat">
+		<div class="header">
+			<img src="/nodejslogo.png" alt="nodelogo" id="nodelogo"/>
+		</div>
+		<div class="chatArea">
+			<ul class="messages"></ul>
+		</div>
+		<input class="inputMessage" placeholder="Share your thoughts..."/>
+	</div>
+	<div class="login page">
+		<img src="/home-chat-logo.png" alt="noimage" id="startpageimg">
+		<div class="form">
+			<h3 class="title">Hey, what's your nickname?</h3>
+			<input class="usernameInput" type="text" maxlength="14" />
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/chat.js"></script>
+</body>
+</html>
